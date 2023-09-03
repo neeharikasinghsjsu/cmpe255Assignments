@@ -1,0 +1,127 @@
+The core classes, functions, and methods necessary for this project are:
+
+1. `Calculator` class: This is the main class that will handle the logic of the calculator. It will have methods for each operation (addition, subtraction, multiplication, division) and a method to clear the inputs.
+
+2. `Application` class: This class will handle the GUI of the calculator. It will have methods to create the buttons and display box, and to update the display box based on user input.
+
+3. `main` function: This is the entry point of the application. It will create an instance of the `Application` class and start the GUI.
+
+4. `test_addition` function: This is a test case for the addition operation. It will create an instance of the `Calculator` class, perform an addition operation, and assert that the result is correct.
+
+The project will consist of two files: `calculator.py` for the `Calculator` class, and `main.py` for the `Application` class and `main` function. The test case will be included in a separate file, `test_calculator.py`.
+
+Now, let's write the code for each file.
+
+calculator.py
+```python
+class Calculator:
+    def __init__(self):
+        self.result = 0
+
+    def add(self, num):
+        self.result += num
+        return self.result
+
+    def subtract(self, num):
+        self.result -= num
+        return self.result
+
+    def multiply(self, num):
+        self.result *= num
+        return self.result
+
+    def divide(self, num):
+        if num != 0:
+            self.result /= num
+        else:
+            self.result = 'Error'
+        return self.result
+
+    def clear(self):
+        self.result = 0
+```
+
+main.py
+```python
+import tkinter as tk
+from calculator import Calculator
+
+class Application(tk.Frame):
+    def __init__(self, master=None):
+        super().__init__(master)
+        self.master = master
+        self.grid()
+        self.create_widgets()
+
+    def create_widgets(self):
+        self.display = tk.Entry(self)
+        self.display.grid(row=0, column=0, columnspan=4)
+
+        self.buttons = []
+        for i in range(9):
+            self.buttons.append(tk.Button(self, text=str(i+1), command=lambda i=i: self.update_display(i+1)))
+            self.buttons[i].grid(row=(i//3)+1, column=i%3)
+
+        self.buttons.append(tk.Button(self, text='0', command=lambda: self.update_display(0)))
+        self.buttons[9].grid(row=4, column=1)
+
+        self.buttons.append(tk.Button(self, text='+', command=lambda: self.update_display('+')))
+        self.buttons[10].grid(row=1, column=3)
+
+        self.buttons.append(tk.Button(self, text='-', command=lambda: self.update_display('-')))
+        self.buttons[11].grid(row=2, column=3)
+
+        self.buttons.append(tk.Button(self, text='*', command=lambda: self.update_display('*')))
+        self.buttons[12].grid(row=3, column=3)
+
+        self.buttons.append(tk.Button(self, text='/', command=lambda: self.update_display('/')))
+        self.buttons[13].grid(row=4, column=3)
+
+        self.buttons.append(tk.Button(self, text='C', command=self.clear_display))
+        self.buttons[14].grid(row=4, column=0)
+
+        self.buttons.append(tk.Button(self, text='=', command=self.calculate))
+        self.buttons[15].grid(row=4, column=2)
+
+    def update_display(self, value):
+        self.display.insert(tk.END, str(value))
+
+    def clear_display(self):
+        self.display.delete(0, tk.END)
+
+    def calculate(self):
+        expression = self.display.get()
+        self.clear_display()
+        try:
+            self.display.insert(tk.END, str(eval(expression)))
+        except Exception:
+            self.display.insert(tk.END, 'Error')
+
+def main():
+    root = tk.Tk()
+    app = Application(master=root)
+    app.mainloop()
+
+if __name__ == "__main__":
+    main()
+```
+
+test_calculator.py
+```python
+from calculator import Calculator
+
+def test_addition():
+    calculator = Calculator()
+    result = calculator.add(5)
+    assert result == 5, f'Expected 5, got {result}'
+    result = calculator.add(3)
+    assert result == 8, f'Expected 8, got {result}'
+```
+
+requirements.txt
+```
+tkinter==8.6
+pytest==6.2.4
+```
+
+To run the application, execute the `main.py` script. To run the test case, use the command `pytest test_calculator.py`.

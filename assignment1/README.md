@@ -1,0 +1,2 @@
+1) Food Recipes Analysis.pdf - Contains the ChatGPT chat transcript for Data Analysis.
+2) Medium.com Article - https://medium.com/@neeharika.singh/analyzing-food-recipes-dataset-using-chatgpt-9bc815d5c76c

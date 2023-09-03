@@ -1,0 +1,11 @@
+Create a calculator with a GUI which can perform basic arithmetic operations like addition, subtraction, multiplication or division depending upon the user input.
+
+It should have numeric buttons to input the numbers.
+It should have buttons for operations like addition, subtraction, multiplication or division.
+
+It should have a display box to show the operations and results.
+It should have a clear button to clear the imputs.
+
+Include a testcase for addition.
+
+It should use python.
