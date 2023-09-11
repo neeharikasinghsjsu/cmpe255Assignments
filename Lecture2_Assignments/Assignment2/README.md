@@ -1,7 +1,7 @@
 # Assignment 2: pycaret
 [Binary Classification](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_binaryclassification.ipynb)
 
-A dataset containing details about loan has been used.It contains the following data.
+A dataset used has details about **loan**.It contains the following data.
 <ol>
   <li>loan_id :  An identifier for the loan.</li>
   <li>no_of_dependents:  Number of dependents of the loan applicant.</li>
@@ -27,7 +27,43 @@ The prediction model **Extreme Gradient Boosting** has been used to determine th
 
 [Multiclass Classification](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_multiclassclassification.ipynb)
 
+The dataset used has details about the **complaints**. It contains the following data
+<ol>
+  <li>complaint_number:  An identifier for the complaints.</li>
+  <li>complaint_type:  The complaint category listed below :
+      <ul>
+        <li>credit_reporting</li>
+        <li>mortgages_and_loans</li>
+        <li>retail_banking</li>
+        <li>debt_collection</li>
+        <li>credit_card</li>
+      </ul>
+  </li>
+  
+  <li>narrative: The content of the complaint in a textual format.</li>
+</ol>
+
+The data model **K Neighbors Classifier**	has been used to predict the **complaint category** based on the narrative.
+
 [Regression](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_regression.ipynb)
+
+The dataset used has details about the laptop specifications and the prices. It has the following data.
+<ol>
+  <li>brand: The brand of the laptop (e.g., LENOVO, ASUS).</li>
+  <li>operating_system: The operating system installed on the laptop (e.g., WINDOWS).</li>
+  <li>RAM_nth: The rank of the laptop's RAM size.</li>
+  <li>storage_nth: A transformed representation of the laptop's storage capacity.</li>
+  <li>storage_type: The type of storage used in the laptop (e.g., SSD).</li>
+  <li>cpu_benchmark: A benchmark score representing the laptop's CPU performance.</li>
+  <li>gpu_class: A class or category indicating the laptop's GPU performance.</li>
+  <li>screen_size: The size of the laptop's screen in inches.</li>
+  <li>PPI: Pixels per inch, indicating the screen resolution.</li>
+  <li>warranty: Duration of the warranty in years.</li>
+  <li>refurbished: Whether the laptop is refurbished or not.</li>
+  <li>price: The price of the laptop.</li>
+</ol>
+
+The model **GradientBoostingRegressor** has been used to predict the **price** of the laptop
 
 [Clustering](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_clustering.ipynb)
 
