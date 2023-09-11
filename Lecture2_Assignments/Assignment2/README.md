@@ -84,6 +84,30 @@ The model **K-Means Clustering** has been used to partition the data into 4 clus
 
 [Anomaly Detection](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_anomaly.ipynb)
 
+The dataset used contains sales and financial data for various products across different segments and countries. Below are the columns:
+
+<ol>
+  <li>Segment: The market segment (e.g., Government, Midmarket).</li>
+  <li>Country: The country where the sale was made.</li>
+  <li>Product: The name of the product sold.</li>
+  <li>Discount Band: The discount category for the sale.</li>
+  <li>Units Sold: The number of units sold for the transaction.</li>
+  <li>Manufacturing Price: The cost to manufacture the product.</li>
+  <li>Sale Price: The price at which the product was sold.</li>
+  <li>Gross Sales: The total sales value before any discounts.</li>
+  <li>Discounts: The amount discounted from the gross sales.</li>
+  <li>Sales: The net sales value after applying discounts.</li>
+  <li>COGS: Cost of Goods Sold, the total cost to produce the goods sold during a specific time period.</li>
+  <li>Profit: The profit from the sale.</li>
+  <li>Date: The date of the sale.</li>
+  <li>Month Number: The month number of the sale.</li>
+  <li>Month Name: The name of the month of the sale.</li>
+  <li>Year: The year of the sale.</li>
+</ol>
+
+The model **Isolation Forest** has been used to isolate anomalies.
+
+
 [Association Rules Mining](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_association_rules.ipynb)
 
 [Time Series Forecasting - Univariate without Exogenous Variables](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_timeseries_univariate_without_exogenous.ipynb)
