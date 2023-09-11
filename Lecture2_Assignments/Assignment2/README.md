@@ -14,3 +14,8 @@
 [Time Series Forecasting - Univariate without Exogenous Variables](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_timeseries_univariate_without_exogenous.ipynb)
 
 [Time Series Forecasting - Univariate with Exogenous Variables](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_timeseries_with_exogenous.ipynb)
+
+
+# Gradio
+
+[Gradio demonstration binary classification](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/gradio/gradio_binary_classification.m4v)
