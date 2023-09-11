@@ -110,6 +110,16 @@ The model **Isolation Forest** has been used to isolate anomalies.
 
 [Association Rules Mining](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_association_rules.ipynb)
 
+The dataset conatins details about the purchases made. It has the following columns :
+
+<ol>
+  <li>Date: date of transaction</li>
+  <li>transaction_id: the id of transaction</li>
+  <li>item_description: item description</li>
+</ol>
+
+This dataset has been used to determine the items that are frequently bought together.
+
 [Time Series Forecasting - Univariate without Exogenous Variables](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_timeseries_univariate_without_exogenous.ipynb)
 
 [Time Series Forecasting - Univariate with Exogenous Variables](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_timeseries_with_exogenous.ipynb)
