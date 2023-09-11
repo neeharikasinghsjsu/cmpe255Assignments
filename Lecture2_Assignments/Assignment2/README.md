@@ -122,6 +122,14 @@ This dataset has been used to determine the items that are frequently bought tog
 
 [Time Series Forecasting - Univariate without Exogenous Variables](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_timeseries_univariate_without_exogenous.ipynb)
 
+The dataset used here conatins the below:
+<ol>
+  <li>date: The date of the sales data entry.</li>
+  <li>sales: The sales value for the corresponding date./li>
+</ol>
+
+The model **Seasonal Naive Forecaster**	has been used to predict the future sales
+
 [Time Series Forecasting - Univariate with Exogenous Variables](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_timeseries_with_exogenous.ipynb)
 
 
