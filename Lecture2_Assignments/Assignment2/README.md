@@ -19,3 +19,5 @@
 # Gradio
 
 [Gradio demonstration binary classification](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/gradio/gradio_binary_classification.m4v)
+
+[Gradio demonstration multiclass](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/gradio/gradio_multiclass.m4v)
