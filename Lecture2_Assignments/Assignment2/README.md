@@ -67,6 +67,21 @@ The model **GradientBoostingRegressor** has been used to predict the **price** o
 
 [Clustering](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_clustering.ipynb)
 
+The dataset used has the IMDB movie details. It contains the following columns
+<ol>
+  <li>title_number: A number assigned to a movie</li>
+  <li>title: The title of the movie.</li>
+  <li>director: The director of the movie.</li>
+  <li>release_year: The year the movie was released.</li>
+  <li>runtime: The duration of the movie in minutes.</li>
+  <li>genre: The genre of the movie (e.g., Drama, Crime, Action).</li>
+  <li>rating: The IMDB rating of the movie.</li>
+  <li>metascore: The Metascore of the movie, which is a weighted average of reviews from mainstream critics.</li>
+  <li>gross(M): The gross earnings of the movie in millions.</li>
+</ol>
+
+The model **K-Means Clustering** has been used to partition the data into 4 clusters.
+
 [Anomaly Detection](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_anomaly.ipynb)
 
 [Association Rules Mining](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/Lecture2_Assignments/Assignment2/pycaret_association_rules.ipynb)
