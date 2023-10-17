@@ -4,3 +4,5 @@ Assignment 2 - [Auto EDA](https://github.com/neeharikasinghsjsu/cmpe255assignmen
 
 
   [Auto EDA HTML Report](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/ApacheBeamAssignment/autoEDA_report.html)
+
+Assignment 3 - [Apache Beam](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/ApacheBeamAssignment/ApacheBeam.ipynb)
