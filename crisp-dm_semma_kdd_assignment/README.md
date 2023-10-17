@@ -40,3 +40,7 @@ Predicting the Likelihood of a Heart Attack: A Data-Driven Approach
 
 [Research Paper](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/crisp-dm_semma_kdd_assignment/KDD_research_paper..pdf)
 
+**Research Paper Submission Screenshot**
+
+![Research Paper submission screenshot](https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/crisp-dm_semma_kdd_assignment/research_submissions_screenshot.png)
+
