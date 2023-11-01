@@ -9,7 +9,7 @@
 
 
 **2. Timeseries**
-<a target="_blank" href="https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/DataPreparationAssignment/colab/2_Timeseries.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/DataPreparationAssignment/colab/2_Timeseries.ipynb">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
@@ -17,7 +17,7 @@
 
 
 **3. Spatio Temporal**
-<a target="_blank" href="https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/DataPreparationAssignment/colab/3_SpatioTemporal.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/DataPreparationAssignment/colab/3_SpatioTemporal.ipynb">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
@@ -25,7 +25,7 @@
 
 
 **4. Image**
-<a target="_blank" href="https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/DataPreparationAssignment/colab/4_image.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/DataPreparationAssignment/colab/4_image.ipynb">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
@@ -33,7 +33,7 @@
 
 
 **5. Audio**
-<a target="_blank" href="https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/DataPreparationAssignment/colab/5_audio.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/DataPreparationAssignment/colab/5_audio.ipynb">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
@@ -41,14 +41,14 @@
 
 
 **6. Video**
-<a target="_blank" href="https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/DataPreparationAssignment/colab/6_video.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/DataPreparationAssignment/colab/6_video.ipynb">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
 [Medium Article](https://medium.com/@neeharika.singh/leveraging-chatgpt-and-gpt-4s-code-interpreter-for-rapid-data-science-866b5d336fed)
 
 **7. Graph dataset**
-<a target="_blank" href="https://github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/DataPreparationAssignment/colab/7_graph_dataset.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github.com/neeharikasinghsjsu/cmpe255assignments/blob/main/DataPreparationAssignment/colab/7_graph_dataset.ipynb">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
