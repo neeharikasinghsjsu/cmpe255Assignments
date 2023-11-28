@@ -7,3 +7,5 @@ Medium Article : https://medium.com/@neeharika.singh/title-revolutionizing-recom
 SlideShare : https://www.slideshare.net/neeharikasingh29/advancedrecommendationsystemspresentationpptx
 
 Presentation : https://drive.google.com/file/d/1n7CBp9W5Z4tNteq_Dc20kD_wsZIIQv-l/view?usp=sharing
+
+Presentation Youtube : https://youtu.be/exxydbLXrj4?feature=shared
